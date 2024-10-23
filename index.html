@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Krishsath's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="profile">
+            <h1>Krishsath</h1>
+            <p><span style="color: blue;">Recent Engineering graduate with a passion for computer science, eager to apply academic knowledge and gain practical experience in machine learning and data analysis.</span></p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/krishsath-cp-59754532a/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Krishsathcp" target="_blank">GitHub</a>
+            </div>
+            <div class="resume-download">
+                <a href="Bachelor of Engineering in Computer Science 2023-2027 [Anna University MIT Campus].docx" download="Krishsath_Resume.docx" class="download-btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C, C++, Java</li>
+            <li>SQL</li>
+            <li>Machine Learning & Data Analysis (beginner)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Car Rental System - Developed a car rental system project as part of academic work.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:cpkrishsath@gmail.com">cpkrishsath@gmail.com</a></p>
+        <p>Phone: 7358093506</p>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot">
+        <h2>Chat with me!</h2>
+        <div class="chat-container">
+            <div class="question-buttons">
+                <button onclick="askQuestion('Tell me about yourself.')">Tell me about yourself</button>
+                <button onclick="askQuestion('What skills do you have?')">What skills do you have?</button>
+                <button onclick="askQuestion('What projects have you worked on?')">What projects have you worked on?</button>
+                <button onclick="askQuestion('Can I download your resume?')">Can I download your resume?</button>
+                <button onclick="askQuestion('What is your educational background?')">What is your educational background?</button>
+            </div>
+            <div id="chatbox"></div>
+            <input type="text" id="userInput" placeholder="Type a message..." />
+            <button id="sendButton">Send</button>
+            <button id="resetButton">Reset</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Krishsath</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

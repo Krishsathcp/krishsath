@@ -1,0 +1,201 @@
+/* Existing styles for the website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
+
+header {
+    background: linear-gradient(to right, #1f1f1f, #2c2c2c); /* Darker gradient */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+#about {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.profile {
+    max-width: 600px;
+    margin: auto;
+}
+
+.profile h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #0077b5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #005582;
+}
+
+/* Resume download button */
+.resume-download {
+    margin-top: 20px;
+}
+
+.download-btn {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    background: #1e1e1e; /* Dark section background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+    color: #e0e0e0; /* Light text color for headings */
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f1f1f; /* Dark footer background */
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* Chatbot Styles */
+.chat-container {
+    background-color: #2c2c2c; /* Darker chat container */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: auto;
+}
+
+#chatbox {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff; /* White chatbox for visibility */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#userInput {
+    width: 80%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #333; /* Dark input field */
+    color: #fff; /* Light text color in input field */
+}
+
+button {
+    padding: 12px 15px;
+    background-color: #0077b5; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005582; /* Darker button on hover */
+}
+
+.question-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.question-buttons button {
+    background-color: #0077b5; /* Dark button color */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.question-buttons button:hover {
+    background-color: #005582; /* Darker button on hover */
+}
+
+.message {
+    margin: 5px 0;
+}
+
+.user {
+    color: #0077b5; /* User message color */
+}
+
+.bot {
+    color: #ffcc00; /* Bot message color */
+}
